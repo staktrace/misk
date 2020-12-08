@@ -13,7 +13,11 @@ import misk.moshi.wire.WireMessageAdapter
 import java.util.Date
 import javax.inject.Singleton
 
-internal class MoshiModule : KAbstractModule() {
+/**
+ * For service setup, prefer to install [misk.MiskCommonServiceModule] over installing [MoshiModule]
+ * directly.
+ */
+object MoshiModule : KAbstractModule() {
   override fun configure() {
     install(MoshiAdapterModule(WireMessageAdapter.Factory()))
     install(MoshiAdapterModule(ByteStringAdapter))
