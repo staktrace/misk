@@ -9,6 +9,7 @@ import misk.inject.KAbstractModule
 import misk.moshi.adapters.BigDecimalAdapter
 import misk.moshi.okio.ByteStringAdapter
 import misk.moshi.time.InstantAdapter
+import misk.moshi.time.LocalDateAdapter
 import misk.moshi.wire.WireMessageAdapter
 import java.util.Date
 import javax.inject.Singleton
@@ -24,6 +25,7 @@ object MoshiModule : KAbstractModule() {
     install(MoshiAdapterModule<Date>(Rfc3339DateJsonAdapter()))
     install(MoshiAdapterModule(InstantAdapter))
     install(MoshiAdapterModule(BigDecimalAdapter))
+    install(MoshiAdapterModule(LocalDateAdapter))
   }
 
   @Provides
