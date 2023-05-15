@@ -1,0 +1,14 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:misk.crypto.testing////PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/index.md
+$dokka.location:misk.crypto.testing/CryptoTestModule///PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-crypto-test-module/index.md
+$dokka.location:misk.crypto.testing/CryptoTestModule/CryptoTestModule/#misk.crypto.CryptoConfig?/PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-crypto-test-module/-crypto-test-module.md
+$dokka.location:misk.crypto.testing/FakeExternalKeyManagerModule///PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-external-key-manager-module/index.md
+$dokka.location:misk.crypto.testing/FakeExternalKeyManagerModule/FakeExternalKeyManagerModule/#misk.crypto.CryptoConfig/PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-external-key-manager-module/-fake-external-key-manager-module.md
+$dokka.location:misk.crypto.testing/FakeKeyResolver///PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-key-resolver/index.md
+$dokka.location:misk.crypto.testing/FakeKeyResolver/FakeKeyResolver/#kotlin.collections.List[misk.crypto.Key]/PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-key-resolver/-fake-key-resolver.md
+$dokka.location:misk.crypto.testing/FakeKeyResolver/FakeKeyResolver/#kotlin.collections.Map[KeyAlias,misk.crypto.KeyType]/PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-key-resolver/-fake-key-resolver.md
+$dokka.location:misk.crypto.testing/FakeKeyResolver/allKeyAliases/#/PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-key-resolver/all-key-aliases.md
+$dokka.location:misk.crypto.testing/FakeKeyResolver/getKeyByAlias/#KeyAlias/PointingToDeclaration/misk-crypto-testing/misk.crypto.testing/-fake-key-resolver/get-key-by-alias.md
+misk.crypto.testing
+
