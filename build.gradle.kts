@@ -173,6 +173,10 @@ subprojects {
   ) {
     apply(plugin = "com.palantir.revapi")
 
+    tasks.named { it == "revapi" || it == "revapiAnalyze" }.configureEach {
+      notCompatibleWithConfigurationCache("revapi is so 2022")
+    }
+
     extensions.configure(DetektExtension::class) {
       parallel = true
       buildUponDefaultConfig = false
