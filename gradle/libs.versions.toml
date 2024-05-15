@@ -1,5 +1,5 @@
 [versions]
-dependencyAnalysisPlugin = "1.29.0"
+dependencyAnalysisPlugin = "1.31.0"
 kotlinBinaryCompatibilityPlugin = "0.13.1"
 
 [libraries]
