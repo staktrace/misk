@@ -16,4 +16,4 @@ jobs:
         run: ./bin/hermit env -r >> $GITHUB_ENV
 
       - name: Project Health
-        run: gradle projectHealth
+        run: gradle :misk-proto:projectHealth
