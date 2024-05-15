@@ -1,3 +1,7 @@
+pluginManagement {
+    includeBuild("../dependency-analysis-gradle-plugin")
+}
+
 plugins {
   `gradle-enterprise`
 }

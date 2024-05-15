@@ -16,4 +16,4 @@ jobs:
         run: ./bin/hermit env -r >> $GITHUB_ENV
 
       - name: Project Health
-        run: gradle :misk-proto:projectHealth
+        run: git clone -b kartikaya.test https://github.com/staktrace/dependency-analysis-gradle-plugin ../dependency-analysis-gradle-plugin && gradle :misk-proto:projectHealth

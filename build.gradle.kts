@@ -32,7 +32,7 @@ buildscript {
 }
 
 plugins {
-  id("com.autonomousapps.dependency-analysis") version libs.versions.dependencyAnalysisPlugin.get()
+  id("com.autonomousapps.dependency-analysis")
   id("org.jetbrains.kotlinx.binary-compatibility-validator") version libs.versions.kotlinBinaryCompatibilityPlugin.get()
 }
 
